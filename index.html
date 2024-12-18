@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes de Terror</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(90deg, #3d0000, #1e0000);
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #ff0000;
+            text-shadow: 2px 2px 5px #000;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 20px;
+        }
+
+        .container p {
+            font-size: 1.2rem;
+            color: #bbb;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .movie {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 2px solid #ff0000;
+            border-radius: 10px;
+            background: rgba(50, 0, 0, 0.8);
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .movie:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
+        }
+
+        .movie-title {
+            font-size: 2rem;
+            color: #ff4500;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 5px #000;
+        }
+
+        .description {
+            font-size: 1rem;
+            color: #ddd;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px 0;
+            background: linear-gradient(90deg, #1e0000, #3d0000);
+            text-align: center;
+            color: #bbb;
+            font-size: 0.9rem;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.8);
+        }
+
+        footer a {
+            color: #ff4500;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Filmes de Terror</h1>
+    </header>
+    <div class="container">
+        <p>Descubra os filmes que vão te arrepiar e deixar suas noites mais assustadoras!</p>
+        <div class="movie">
+            <div class="movie-title">O Exorcista</div>
+            <p class="description">Um clássico absoluto do terror que redefine o medo. Um filme que você nunca vai esquecer.</p>
+        </div>
+        <div class="movie">
+            <div class="movie-title">It: A Coisa</div>
+            <p class="description">Pennywise, o palhaço mais aterrorizante, volta para assustar e perseguir a cidade de Derry.</p>
+        </div>
+        <div class="movie">
+            <div class="movie-title">Invocação do Mal</div>
+            <p class="description">Baseado em eventos reais, este filme vai te envolver com histórias de arrepiar a espinha.</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Filmes de Terror | Feito com 🎃 por <a href="https://github.com">Seu Nome</a></p>
+    </footer>
+</body>
+</html>
